@@ -1,0 +1,53 @@
+:root{
+  --dark: #16191e;
+  --dark-x:#1e2126;
+  --light:aliceblue;
+}
+ .bg-dark-x{ background-color: var(--dark-x); }
+ .bg-dark { background-color: var(--dark)!important; }
+ 
+ body{
+   font-family: 'Merriweather', serif;
+   font-weight: 250;
+   color:var( --light )
+ }
+ .box{
+   margin-left: 10px;
+   margin-right: 10px;
+ }
+ 
+ /* .form-control{
+   min-height: 3.125rem;
+   line-height: initial;
+ } */
+ 
+ .img-1{
+   background-image: url("../img/img-1.jpg" );
+   background-size: cover;
+   background-position: center;
+ }
+ 
+ .img-2{
+   background-image: url( "../img/img-2.jpg" );
+   background-size: cover;
+   background-position: center;
+ }
+ 
+ .img-3{
+   background-image: url( "../img/img-3.jpg" );
+   background-size: cover;
+   background-position: center;
+ }
+ 
+ .img-4{
+   background-image: url( "../img/img-4.jpg" );
+   background-size: cover;
+   background-position: center;
+ }
+ 
+ .img-5{
+   background-image: url( "../img/img-5.jpg" );
+   background-size: cover;
+   background-position: center;
+ }
+ 
